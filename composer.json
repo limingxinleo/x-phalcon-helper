@@ -24,6 +24,8 @@
         "ext-phalcon": "^3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7"
+        "phpunit/phpunit": "^5.7",
+        "vlucas/phpdotenv": "^2.4",
+        "phalcon/dd": "^1.0"
     }
 }

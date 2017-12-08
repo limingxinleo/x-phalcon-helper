@@ -12,11 +12,6 @@ use Tests\TestCase;
 
 class BaseTest extends TestCase
 {
-    public function testEnv()
-    {
-        $this->assertEquals('limx', env('USER', 'limx'));
-    }
-
     public function testDi()
     {
         $config = di('config');

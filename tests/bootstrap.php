@@ -6,4 +6,10 @@
 // +----------------------------------------------------------------------
 // | Author: limx <715557344@qq.com> <https://github.com/limingxinleo>
 // +----------------------------------------------------------------------
+use Dotenv\Dotenv;
+
 require __DIR__ . '/../vendor/autoload.php';
+
+if (file_exists(__DIR__ . '/.env')) {
+    (new Dotenv(__DIR__))->load();
+}
