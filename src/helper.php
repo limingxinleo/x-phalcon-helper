@@ -10,7 +10,6 @@ use Phalcon\Di\FactoryDefault;
 
 if (!function_exists('di')) {
     /**
-     * [di desc]
      * @desc   获取容器对象
      * @author limx
      * @param $name 容器服务名
