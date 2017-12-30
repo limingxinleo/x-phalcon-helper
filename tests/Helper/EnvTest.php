@@ -56,5 +56,4 @@ class EnvTest extends TestCase
         $this->assertEquals(null, env('NULL2'));
         $this->assertEquals(null, env('NULL3'));
     }
-
 }

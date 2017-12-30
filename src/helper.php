@@ -18,8 +18,12 @@ if (!function_exists('di')) {
     function di($name = null, $isNew = false)
     {
         $di = FactoryDefault::getDefault();
-        if ($name == null) return $di;
-        if ($isNew === false) return $di->getShared($name);
+        if ($name == null) {
+            return $di;
+        }
+        if ($isNew === false) {
+            return $di->getShared($name);
+        }
         return $di->get($name);
     }
 }
