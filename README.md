@@ -1,6 +1,8 @@
 # x-phalcon-helper
 Phalcon helper
 
+[![Build Status](https://travis-ci.org/limingxinleo/x-phalcon-helper.svg?branch=master)](https://travis-ci.org/limingxinleo/x-phalcon-helper)
+
 ## 获取依赖注入服务
 ~~~php
 <?php
