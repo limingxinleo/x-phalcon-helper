@@ -14,7 +14,7 @@ class EnvTest extends TestCase
 {
     public function testNotSetEnv()
     {
-        $this->assertEquals('limx', env('USER', 'limx'));
+        $this->assertEquals('limx', env('GET_DEFAULT_VALUE', 'limx'));
     }
 
     public function testEnv()
